@@ -3,12 +3,12 @@
 
 using namespace std;
 
-string UserId = "4101";
-string UserLogin = "Ali";
+string UserId = "0004";
+string UserLogin = "Son";
 string UserPassword = "12345";
 string UserAuricCells = "99999";
-string UserShards = "9999";
-string UserName = "Murzik001";
+string UserShards = "99999";
+string UserName = "Unknown";
 
 int main() {
 	cout << "SourceX version 0.1.2" << endl << endl;

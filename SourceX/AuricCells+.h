@@ -4,6 +4,9 @@
 
 using namespace std;
 
+extern int UserAuricCells;
+extern string UserLogin;
+
 void AuricCells() {
 	int AuricMenu;
 	cout << "Auric Cells:";

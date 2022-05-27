@@ -1,13 +1,14 @@
 #include <iostream>
 #include <windows.h>
+#include "AuricCells+.h"
 
 using namespace std;
 
 string UserId = "0004";
 string UserLogin = "Son";
 string UserPassword = "12345";
-string UserAuricCells = "99999";
-string UserShards = "99999";
+int UserAuricCells = 0;
+int UserShards = 0;
 string UserName = "Unknown";
 
 int main() {
@@ -136,21 +137,9 @@ int main() {
 	case 3:
 		Sleep(2000);
 		system("CLS");
-		cout << "Soon!";
-		system("pause");
+		cout << "SourceX version 0.1.2" << endl << endl;
+		AuricCells();
 
-		Sleep(2000);
-		system("CLS");
-		Sleep(2000);
-		cout << "GoodBye! " << UserLogin;
-		Sleep(2000);
-		system("CLS");
-		Sleep(2000);
-		cout << "Legion INC 2022 Creator by CO0K1E";
-		Sleep(2000);
-		system("CLS");
-		return 0;
-		exit(3);
 		break;
 
 	case 4:

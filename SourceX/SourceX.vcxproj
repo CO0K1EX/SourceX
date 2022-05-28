@@ -130,7 +130,9 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AuricCells+.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Shards+.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SourceX.rc" />

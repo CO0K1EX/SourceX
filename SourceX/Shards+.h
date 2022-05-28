@@ -4,25 +4,25 @@
 
 using namespace std;
 
-extern int UserAuricCells;
+extern int UserShards;
 extern string UserLogin;
 
-void AuricCells() {
-	int AuricMenu;
+void Shards() {
+	int ShardsMenu;
 	cout << "Auric Cells:";
-	cin >> AuricMenu;
+	cin >> ShardsMenu;
 
 	Sleep(1500);
 	while (true)
 	{
-		cout << UserAuricCells + AuricMenu << endl;
-		UserAuricCells += AuricMenu;
+		cout << UserShards + ShardsMenu << endl;
+		UserShards += ShardsMenu;
 		Sleep(50);
-		if (UserAuricCells == 1000000) {
+		if (UserShards == 1000000) {
 			break;
 		}
 	}
-	cout << "Auric Cells:" << UserAuricCells << endl << endl;
+	cout << "Shards:" << ShardsMenu << endl << endl;
 	system("pause");
 	Sleep(2000);
 	system("CLS");

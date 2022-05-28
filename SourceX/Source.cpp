@@ -1,7 +1,7 @@
 #include <iostream>
 #include <windows.h>
 #include "AuricCells+.h"
-
+#include "Shards+.h"
 using namespace std;
 
 string UserId = "0004";
@@ -12,7 +12,7 @@ int UserShards = 0;
 string UserName = "Unknown";
 
 int main() {
-	cout << "SourceX version 0.1.2" << endl << endl;
+	cout << "SourceX version 1.1.1" << endl << endl;
 
 	string Login;
 	cout << "Login:";
@@ -41,7 +41,7 @@ int main() {
 		cout << "Failed!";
 		Sleep(1500);
 		system("CLS");
-		cout << "FAILED!" << endl << endl;
+		cout << "Failed!" << endl << endl;
 		cout << "Error Invalid Login And Password!" << endl;
 		cout << "Try Again!" << endl << endl;
 		system("pause");
@@ -50,7 +50,7 @@ int main() {
 		system("CLS");
 	}
 
-	cout << "SourceX version 0.1.2" << endl << endl;
+	cout << "SourceX version 1.1.1" << endl << endl;
 	cout << "ID:" << UserId << "||" << "User:" << UserLogin << endl;
 	int menu;
 	cout << "||MENU||" << endl;
@@ -67,7 +67,7 @@ int main() {
 	case 1:
 		Sleep(2500);
 		system("CLS");
-		cout << "SourceX version 0.1.2" << endl << endl;
+		cout << "SourceX version 1.1.1" << endl << endl;
 		cout << "Name:" << UserName << "||" << "Auric Cells:" << UserAuricCells << "||" << "Shards:" << UserShards << endl << endl;
 		system("pause");
 		Sleep(2000);
@@ -87,7 +87,7 @@ int main() {
 	case 2:
 		Sleep(2500);
 		system("CLS");
-		cout << "SourceX version 0.1.2" << endl << endl;
+		cout << "SourceX version 1.1.1" << endl << endl;
 		int SaveMenu;
 		cout << "Save Injector" << endl;
 		cout << "[1]-Save Down" << endl;
@@ -137,29 +137,15 @@ int main() {
 	case 3:
 		Sleep(2000);
 		system("CLS");
-		cout << "SourceX version 0.1.2" << endl << endl;
+		cout << "SourceX version 1.1.1" << endl << endl;
 		AuricCells();
-
 		break;
 
 	case 4:
 		Sleep(2000);
 		system("CLS");
-		cout << "Soon!";
-		system("pause");
-
-		Sleep(2000);
-		system("CLS");
-		Sleep(2000);
-		cout << "GoodBye! " << UserLogin;
-		Sleep(2000);
-		system("CLS");
-		Sleep(2000);
-		cout << "Legion INC 2022 Creator by CO0K1E";
-		Sleep(2000);
-		system("CLS");
-		return 0;
-		exit(3);
+		cout << "SourceX version 1.1.1" << endl << endl;
+		Shards();
 		break;
 
 	case 5:

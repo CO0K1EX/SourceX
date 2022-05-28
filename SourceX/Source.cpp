@@ -1,7 +1,9 @@
 #include <iostream>
 #include <windows.h>
+#include <stdlib.h>
 #include "AuricCells+.h"
 #include "Shards+.h"
+
 using namespace std;
 
 string UserId = "0004";
@@ -12,6 +14,7 @@ int UserShards = 0;
 string UserName = "Unknown";
 
 int main() {
+	system("title SourceX");
 	cout << "SourceX version 1.1.1" << endl << endl;
 
 	string Login;

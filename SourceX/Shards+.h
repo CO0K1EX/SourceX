@@ -9,7 +9,7 @@ extern string UserLogin;
 
 void Shards() {
 	int ShardsMenu;
-	cout << "Auric Cells:";
+	cout << "Shards:";
 	cin >> ShardsMenu;
 
 	Sleep(1500);
